@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/gem_template/version', __FILE__)
+require File.expand_path('../lib/api_gem_template/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = 'gem_template'
-  gem.version     = GemTemplate::VERSION
+  gem.name        = 'api_gem_template'
+  gem.version     = ApiGemTemplate::VERSION
   gem.author      = "Code for America"
   gem.email       = 'info@codeforamerica.org'
   gem.homepage    = ''

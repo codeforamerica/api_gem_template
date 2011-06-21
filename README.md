@@ -11,10 +11,10 @@ For more information on RubyGems, you should read the [RubyGems Manuals][manuals
 
 After cloning this gem, you'll want to make the following changes:
 
-1. Replace all instances of gem_template and GemTemplate with the snake_case and CamelCase name of your gem, respectively
+1. Replace all instances of api_gem_template and ApiGemTemplate with the snake_case and CamelCase name of your gem, respectively
 2. Add a summary and description to the [gemspec][gemspec] file
 
-[gemspec]: https://github.com/codeforamerica/gem_template/blob/master/gem_template.gemspec
+[gemspec]: https://github.com/codeforamerica/api_gem_template/blob/master/api_gem_template.gemspec
 
 This template includes:
 
@@ -29,4 +29,4 @@ This template includes:
 [yard]: https://github.com/lsegal/yard
 
 
-[![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/gem_template.png)](http://stats.codeforamerica.org/projects/gem_template)
+[![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/api_gem_template.png)](http://stats.codeforamerica.org/projects/api_gem_template)
