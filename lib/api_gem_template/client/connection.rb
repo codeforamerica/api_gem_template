@@ -6,7 +6,7 @@ module ApiGemTemplate
       private
 
       def connection
-        Faraday.new(:url => 'http://ogdi.cloudapp.net/v1/') do |connection|
+        Faraday.new(:url => '') do |connection|
           connection.use Faraday::Request::UrlEncoded
           connection.use Faraday::Response::RaiseError
           connection.use Faraday::Response::Rashify
