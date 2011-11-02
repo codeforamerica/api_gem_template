@@ -1,7 +1,7 @@
 require 'api_gem_template/client'
 
 module ApiGemTemplate
-  
+
   def self.client(options={})
       ApiGemTemplate::Client.new(options)
     end
@@ -15,5 +15,5 @@ module ApiGemTemplate
     def self.respond_to?(method, include_private=false)
       client.respond_to?(method, include_private) || super(method, include_private)
     end
-    
+
 end

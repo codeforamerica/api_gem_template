@@ -2,7 +2,6 @@
 
 A thin wrapper for the ApiGemTemplate API sponsored by Code for America.
 
-
 Usage
 -----
 ```ruby
@@ -10,9 +9,8 @@ Usage
 	require 'api_gem_template'
 
   ApiGemTemplate.new # or however you will use your gem
-	
-```
 
+```
 
 Contributing
 ------------
