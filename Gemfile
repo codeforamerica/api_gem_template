@@ -1,4 +1,4 @@
 source 'http://rubygems.org'
 
-# Specify your gem's dependencies in gem_template.gemspec
+# Specify your gem's dependencies in api_gem_template.gemspec
 gemspec
